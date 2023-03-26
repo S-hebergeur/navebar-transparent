@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.formulaire{
+position: relative;
+top: 60px;   
+}
+
+.mini-form{
+min-width: 300px;    
+}
+
+.bg-image{
+filter: hue-rotate(30deg);     
+}
+
+.bg-image:hover{ 
+filter: drop-shadow(1px 1px 5px blue) invert(5%); 
+transition: 1s; 
+transform: scale(1.030);
+max-width: 99.9%;
+    
+}
+/*Card Sub*/
+.subscribe:hover{
+transform: scale(1.1);
+transition: 0.5s;
+z-index: 1; 
+box-shadow: 2px 1px 10px 2px #33F5FF;
+}
+
